@@ -37,5 +37,5 @@ install:
 
 script:
   - nimble develop -y
-  - nimble test
-  - nimble examples
+  - travis_wait nimble test
+  - travis_wait nimble examples
