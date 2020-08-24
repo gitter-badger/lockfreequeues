@@ -38,4 +38,4 @@ install:
 script:
   - nimble develop -y
   - travis_wait nimble test
-  - travis_wait nimble examples
+  #- travis_wait nimble examples
